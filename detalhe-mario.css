@@ -1,0 +1,138 @@
+header {
+    background-color: #202020;
+    color: aliceblue;
+}
+
+body {
+
+    background-color: #343333 !important;
+    color: white !important;
+}
+
+.menu-principal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-image: url("./imagens/super-mario-plano-de-fundo.jpg");
+    background-position: center;
+    /* background: fixed; */
+    background-size: cover;
+}
+
+.botoes-navegacao {
+    font-size: 28px;
+    color: #343333;
+    padding: 16px 60px;
+    background-color: #fff263c4;
+    border: none;
+    border-radius: 40px;
+    transition: 1s;
+}
+
+.botoes-navegacao:hover{
+    background-color: #fff263f4;
+    scale: 1.06;
+    box-shadow: 7px 7px #343333;
+
+}
+
+.container-config, .video-config {
+   margin: 0px !important;
+   padding: 0 !important;
+   
+
+}
+
+.row-config{
+    width: 100vw;
+    padding: 20px 60px;
+    /* gap: 10px; */
+    
+    
+}
+
+.row-config h1{
+  padding: 60px 0;
+    
+}
+.descricao{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    text-align:center;
+    color: white;
+}
+
+.descricao img{
+   width: 200px;
+   /* margin-left: 30px; */
+
+}
+
+.texto-descricao{
+    padding: 20px !important;
+    font-size: 18px;
+    text-align: justify;
+    background-color: #5d5c5c64;
+    border-radius: 20px;
+    
+
+}
+
+.info-criadores img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+   
+}
+
+.info-criadores, .info-video{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.info-criadores:hover{
+    /* width: 300px; */
+    background-color: #5c5a5a;
+    scale: 1.02;
+    border-style: ridge;
+    border: 3px #42fd7a;
+    
+}
+
+.info-criadores img:hover{
+    border-style: ridge;
+    border: 3px #42fd7a;
+}
+
+
+.info-video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info-video iframe{
+    min-width: 1080px;
+    height: 720px;
+    border-radius: 20px;
+
+}
+.row-config-video{
+    transition: 1s;
+}
+.row-config-video:hover{
+
+    background-color: #5c5a5a;
+}
+
+
