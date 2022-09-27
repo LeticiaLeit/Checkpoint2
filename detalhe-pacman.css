@@ -35,7 +35,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 30px;
-    background-image: url("./imagens/sonic-plano-de-fundo.jpg");
+    background-image: url("./imagens/pacman-plano-de-fundo.jpg");
     background-position: center;
     /* background: fixed; */
     background-size: cover;
