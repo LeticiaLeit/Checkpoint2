@@ -1,7 +1,7 @@
 body {
     background: url(../assets/game-over.jpg);
-    /* width: 100%; */
     min-height: 100vh;
+    overflow-x: hidden;
     position: relative;
     background-size: cover;
     background-position: center;
@@ -19,6 +19,9 @@ body::before {
 }
 
 .cabecalho .nav-personalizada {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     padding: 0 20px;
     background-color: rgba(0, 0, 0, 0.4)
 }
@@ -119,7 +122,7 @@ body::before {
 
 .games h2 {
     text-align: center;
-    padding: 15px;
+    padding: 60px;
     font-size: 54px;
     color: #da5e0c;
 }
@@ -151,4 +154,18 @@ body::before {
 
 .rodape .card-personalizado i:hover {
     transform: scale(1.2);
+}
+
+@media (max-width: 970px) {
+    .menu-central h1 {
+        margin: 0;
+        padding-bottom: 12px;
+        text-align: center;
+    }
+    
+    .menu-central p {
+        margin: 0;
+        padding-bottom: 12px;
+        text-align: center;
+    }
 }
