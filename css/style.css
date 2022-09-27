@@ -131,6 +131,12 @@ body::before {
     padding-bottom: 12px;
 }
 
+.cards-personalizado .card-descricao img {
+    width: 100px;
+    /* display: flex; */
+    margin: 10px auto;
+}
+
 .rodape .card-personalizado div {
     padding: 24px;
     color: #e7e2f0;
