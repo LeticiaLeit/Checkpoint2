@@ -37,7 +37,10 @@ body::before {
 
 .cabecalho .menu-personalizado a:hover {
     color: #c1abeb;
+}
 
+.container-personalizada .button-nav {
+    background-color: rgba(238, 227, 222, 0.644);
 }
 
 .button-explorar {
@@ -117,7 +120,7 @@ body::before {
 }
 
 .games {
-    background-color: #e7e2f0;
+    background-color: rgba(231, 226, 240, 0.2);
 }
 
 .games h2 {
@@ -133,7 +136,7 @@ body::before {
 
 .cards-personalizado .card-descricao img {
     width: 100px;
-    /* display: flex; */
+    height: 50px;
     margin: 10px auto;
 }
 
@@ -173,5 +176,22 @@ body::before {
         margin: 0;
         padding-bottom: 12px;
         text-align: center;
+    }
+}
+
+@media (max-width: 520px) {
+    .menu-central h1 {
+        font-size: 40px;
+    }
+
+    .menu-central p {
+        font-size: 18px;
+    }
+
+    .button-explorar .btn-personalizado {
+        width: 200px;
+        height: 48px;
+        font-size: 16px;
+        padding: 0 auto;
     }
 }
