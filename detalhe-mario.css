@@ -123,7 +123,7 @@ body {
 }
 .info-video iframe{
     min-width: 1080px;
-    height: 720px;
+    height: 650px;
     border-radius: 20px;
 
 }
@@ -135,4 +135,40 @@ body {
     background-color: #5c5a5a;
 }
 
+@media (max-width: 1200px){
 
+    .menu-principal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .info-video iframe{
+        min-width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 400px){
+
+    .botoes-navegacao {
+        font-size: 16px;
+    }
+
+    .row-config {
+        margin-left: 0 !important;
+        padding: 10px;
+    }
+
+    .descricao img{
+        width: 150px;
+    }
+
+    .info-video iframe{
+        min-width: 350px;
+        height: 200px;
+    }
+
+}
