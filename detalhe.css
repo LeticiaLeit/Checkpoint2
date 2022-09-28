@@ -203,7 +203,8 @@ margin-right: 0 !important;
   justify-content: center;
 }
 .info-video iframe{
-  min-width: 1080px;
+  width: 95%;
+  max-width: 1200px;
   height: 650px;
   border-radius: 20px;
 
@@ -240,10 +241,8 @@ margin-right: 0 !important;
 
   .info-video iframe{
    
-     min-width: 700px;
-     height: 400px;
+    height: 500px;
    
-      
   }
 }
 
@@ -267,8 +266,8 @@ margin-right: 0 !important;
   }
 
   .info-video iframe{
-      min-width: 300px;
-      height: 200px;
+     
+      height: 300px;
   }
 
 }
