@@ -75,6 +75,17 @@ body::before {
     position: relative;
 }
 
+.button-explorar .btn-personalizado a {
+    text-decoration: none;
+    color: #e7e2f0;
+    font-size: 26px;
+    transition: .5s;
+}
+
+.button-explorar .btn-personalizado a:hover {
+    color: #333;
+}
+
 .btn-personalizado::before {
     content: '';
     position: absolute;
@@ -99,7 +110,7 @@ body::before {
     background-color: #e7e2f0;
     z-index: -1;
     opacity: 0;
-    transition: opacity 110ms linear;
+    transition: opacity .5s linear;
 }
 
 .btn-personalizado:hover::after,
@@ -132,6 +143,20 @@ body::before {
 
 .games .games-personalizado div {
     padding-bottom: 12px;
+}
+
+.cards-personalizado .card-descricao {
+    background-color: rgba(182, 174, 174, 0.829);
+}
+
+.card-descricao .btn-descricao-card {
+    background-color: #da5e0c;
+    border: none;
+    transition: .4s;
+}
+
+.card-descricao .btn-descricao-card:hover {
+    background-color: #f0670bc7;
 }
 
 .cards-personalizado .card-descricao img {

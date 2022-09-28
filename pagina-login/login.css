@@ -1,0 +1,63 @@
+body {
+  background: url(../assets/game-over.jpg);
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+body::before {
+  content: '';
+  background-color: rgb(0, 0, 0, .8);
+  width: 100%;
+  min-height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.container-principal {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-principal .formulario {
+    width: 500px;
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #aaa8aac9;
+}
+
+.formulario .texto-aviso {
+    color: #f70707ea;
+    font-weight: 300;
+}
+
+.formulario .button-personalizado {
+    background-color: #ff6207ee;
+    border: none;
+    transition: .5s;
+}
+
+.formulario .button-personalizado:hover {
+    background-color: #f0740069 !important;
+}
+
+.button-personalizado a {
+    text-decoration: none;
+    color: #f0f8ff;
+    font-size: 18px;
+}
+
+.button-personalizado a:hover {
+    color: #d0d4d6;
+}
