@@ -42,10 +42,49 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
-  background-image: url("./imagens/donkey-kong-background.jpg");
   background-position: center;
   background-size: cover;
 }
+
+.menu-principal-donkeykong {
+
+  background-image: url("./imagens/donkey-kong-background.jpg");
+
+}
+
+.menu-principal-mario {
+
+  background-image: url("./imagens/super-mario-plano-de-fundo.jpg");
+
+}
+
+.menu-principal-sonic {
+
+  background-image: url("./imagens/sonic-plano-de-fundo.jpg");
+
+}
+
+.menu-principal-street-fighter {
+
+  background-image: url("./imagens/street-fighter-background.jpg");
+
+}
+
+.menu-principal-pacman {
+
+  background-image: url("./imagens/pacman-plano-de-fundo.jpg");
+
+}
+
+.menu-principal-zelda {
+
+  background-image: url("./imagens/zelda-background.jpg");
+
+}
+
+
+
+
 
 .botoes-navegacao {
   font-size: 28px;
