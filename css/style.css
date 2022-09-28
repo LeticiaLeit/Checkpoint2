@@ -150,20 +150,33 @@ body::before {
 }
 
 .card-descricao .btn-descricao-card {
-    background-color: #da5e0c;
+    background-color: #d7722f;
     border: none;
     transition: .4s;
 }
 
 .card-descricao .btn-descricao-card:hover {
-    background-color: #f0670bc7;
+    background-color: #ee6001ca;
 }
 
 .cards-personalizado .card-descricao img {
     width: 100px;
     height: 50px;
     margin: 10px auto;
+    
 }
+.cards-personalizado, .card-descricao {
+transition: 0.5s !important;
+}
+
+.cards-personalizado :hover{
+    scale: 1.02;
+}
+
+.card-descricao :hover{
+    scale: none;
+}
+
 
 .rodape .card-personalizado div {
     padding: 24px;

@@ -86,21 +86,18 @@ body {
 }
 
 
-
-
-
 .botoes-navegacao {
   font-size: 28px;
   color: #343333;
   padding: 16px 60px;
-  background-color: #fff263c4;
+  background-color: #fb9f1dca;
   border: none;
   border-radius: 40px;
   transition: 1s;
 }
 
 .botoes-navegacao:hover{
-  background-color: #fff263f4;
+  background-color: #ffb348f8;
   scale: 1.06;
   box-shadow: 7px 7px #343333;
 
